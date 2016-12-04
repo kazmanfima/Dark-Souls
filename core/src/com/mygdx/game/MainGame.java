@@ -6,7 +6,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class MainGame extends Game {
 	SpriteBatch batch;
-	Texture img;
+	//Texture img;
 	
 	@Override
 	public void create () {
@@ -22,6 +22,6 @@ public class MainGame extends Game {
 	@Override
 	public void dispose () {
 		batch.dispose();
-		img.dispose();
+		//img.dispose();
 	}
 }
